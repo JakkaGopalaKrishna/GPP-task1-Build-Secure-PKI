@@ -1,0 +1,21 @@
+ECHO is on.
+# Ignore system files
+Thumbs.db
+Desktop.ini
+
+# Ignore Python stuff
+__pycache__/
+*.pyc
+
+# Ignore Node.js stuff
+node_modules/
+
+# Ignore environment files
+.env
+
+# Ignore keys (IMPORTANT)
+*.pem
+*.key
+
+# Ignore logs
+*.log
